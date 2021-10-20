@@ -50,7 +50,6 @@ namespace SqlServerSample
                     sb.Append("(N'Stephen', N'Walk the dog'), ");
                     sb.Append("(N'Noah', N'Vacuum room'), ");
                     sb.Append("(N'Holly', N'Make table for dinner'); ");
-                    //sb.Append("(N'Natileah', N'Take out trash'); ");
                     sql = sb.ToString();
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {

@@ -3,7 +3,7 @@ using System.Text;
 using System.Data.SqlClient;
 using System.Data;
 
-namespace SqlServerSample
+namespace ChoresApp
 {
     class Program
     {
